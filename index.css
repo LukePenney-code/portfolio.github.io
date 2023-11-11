@@ -1,0 +1,174 @@
+
+.navbar {
+    
+    color: #f87b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f87b1b;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header {
+    color: #f87b1b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#name {
+    font-size: 55px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+#job-title{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+body{
+    background-color: black;
+    background: linear-gradient(150deg, #000000, #885a21);
+}
+.writeup {
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: white;
+    
+}
+.company-name {
+    border-style: groove;
+    border-radius: 10%;
+    border-spacing: 20px;
+    font-size: 25px;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.head-work {
+    color: #f87b1b;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    
+}
+#work-expirience {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    
+}
+img {
+    margin-left: 100px;
+}
+
+.vac-head{
+    color: #f87b1b;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+.vac-head{
+    color: #f87b1b;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+.cfia-head{
+    color: #f87b1b;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+.orange-head{
+    color: #f87b1b;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+.vaclab {
+    padding-left: 50px;
+}
+
+ul, li {
+    color: #f87b1b;
+    font-size: 18px;
+}
+
+.cfia {
+    padding-left: 50px;
+
+}
+.orange-store {
+    padding-left: 50px;
+}
+.project-head{
+    color: #f87b1b;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+}
+section {
+    margin-bottom: 0px;
+}
+
+.bot-link:hover{
+    color: #f87b1b;
+    text-decoration: underline;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #0a0909;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.dropdown-content a {
+    color: rgb(251, 114, 1);
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
