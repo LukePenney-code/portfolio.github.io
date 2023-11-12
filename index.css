@@ -1,0 +1,151 @@
+
+/* General styles */
+body {
+    background-color: black;
+    background: linear-gradient(150deg, #000000, #885a21);
+    color: #f87b1b;
+    font-family: 'Arial', Copperplate, Copperplate Gothic Light, fantasy;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px; /* Adjusted padding for smaller screens */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f87b1b;
+    margin: 0 10px; /* Adjusted margin for smaller screens */
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px; /* Adjusted margin for smaller screens */
+}
+
+#name {
+    font-size: 40px; /* Adjusted font size for smaller screens */
+    margin-bottom: 5px;
+}
+
+#job-title {
+    font-size: 18px; /* Adjusted font size for smaller screens */
+    margin-bottom: 20px; /* Adjusted margin for smaller screens */
+}
+
+.writeup {
+    font-size: 16px;
+    padding: 20px;
+    color: white;
+}
+
+.company-name {
+    font-size: 20px;
+    border-style: groove;
+    border-radius: 10%;
+    border-spacing: 10px; /* Adjusted border spacing for smaller screens */
+}
+
+/* Main content styles */
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; /* Adjusted padding for smaller screens */
+}
+
+/* Work experience styles */
+.head-work {
+    font-size: 30px; /* Adjusted font size for smaller screens */
+    font-weight: bold;
+}
+
+#work-expirience {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-around;
+    margin-bottom: 30px; /* Adjusted margin for smaller screens */
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    margin-bottom: 10px;
+}
+
+/* Project styles */
+.project-head {
+    font-size: 30px; /* Adjusted font size for smaller screens */
+    font-weight: bold;
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    background-color: #0a0909;
+}
+
+.dropdown-content a {
+    color: #f87b1b;
+    padding: 5px 10px; /* Adjusted padding for smaller screens */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 10px;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+
+    #job-title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .writeup {
+        padding: 10px;
+    }
+
+    .company-name {
+        font-size: 16px;
+        border-spacing: 5px;
+    }
+
+    #main {
+        padding: 10px;
+    }
+
+    .head-work {
+        font-size: 20px;
+    }
+
+    #work-expirience {
+        margin-bottom: 20px;
+    }
+
+    .project-head {
+        font-size: 20px;
+    }
+}
