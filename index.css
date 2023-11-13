@@ -102,6 +102,13 @@ img {
     color: #f87b1b;
     padding: 5px 10px; /* Adjusted padding for smaller screens */
 }
+.bot-link{
+    color: #f87b1b
+}
+.bot-link:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
