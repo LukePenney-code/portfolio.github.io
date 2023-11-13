@@ -148,4 +148,7 @@ img {
     .project-head {
         font-size: 20px;
     }
+    element.style {
+        word-wrap: break-word;
+    }
 }
